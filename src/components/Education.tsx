@@ -4,7 +4,7 @@ import CVSection from "./CVSection";
 
 const educationData = [
   {
-    year: "2003-2012",
+    year: "2004-2011",
     degree: "Doctorat d'Économie du Développement",
     institution: "CERDI, Université d'Auvergne",
   },

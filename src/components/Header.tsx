@@ -20,7 +20,7 @@ const Header = () => {
       {/* Colonne de droite */}
       <div className="text-right text-gray-700">
         <div className="flex items-center justify-end mb-1">
-          <p className="mr-2">10, rue Auguste Poirson</p>
+          <p className="mr-2">112 rue Ernest Renan</p>
           <FiMapPin />
         </div>
         <p className="mb-1">33000 Bordeaux, France</p>
@@ -32,10 +32,10 @@ const Header = () => {
         </div>
         <div className="flex items-center justify-end">
           <a
-            href="mailto:gy.paul@gmail.com"
+            href="mailto:Paul.Gyselinck@ac-bordeaux.fr"
             className="mr-2 hover:text-blue-600"
           >
-            gy.paul@gmail.com
+            Paul.Gyselinck@ac-bordeaux.fr
           </a>
           <FiMail />
         </div>
