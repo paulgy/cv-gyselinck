@@ -1,19 +1,21 @@
 import Header from "@/components/Header";
-import Education from "@/components/Education";
-import Experience from "@/components/Experience";
-import Activities from "@/components/Activities";
-import Skills from "@/components/Skills";
+import Profile from "@/components/Profile";
+import Competences from "@/components/Competences";
+import Experiences from "@/components/Experiences";
+import Formations from "@/components/Formations";
+import Engagements from "@/components/Engagements";
 
 export default function Home() {
   return (
-    <main className="font-sans bg-gray-50">
-      <div className="container mx-auto max-w-5xl p-8 md:p-12 bg-white shadow-lg my-8">
-        <Header />
-        <Education />
-        <Experience />
-        <Activities />
-        <Skills />
-      </div>
-    </main>
+    <div className="container mx-auto max-w-4xl p-4 sm:p-6 md:p-8 bg-white shadow-lg rounded-lg my-8 font-sans">
+      <Header />
+      <main className="mt-8 space-y-12">
+        <Profile />
+        <Competences />
+        <Experiences />
+        <Formations />
+        <Engagements />
+      </main>
+    </div>
   );
 }

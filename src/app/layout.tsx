@@ -1,13 +1,11 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
-
+// Configuration des métadonnées pour le SEO et l'onglet du navigateur
 export const metadata: Metadata = {
-  title: "CV de Paul Gyselinck",
+  title: "CV de Paul Gyselinck | Candidature Référent Numérique & IA",
   description:
-    "Curriculum Vitae de Paul Gyselinck - Enseignant et passionné du numérique.",
+    "CV en ligne de Paul Gyselinck pour la mission de référent départemental numérique et IA au sein du SRANE.",
 };
 
 export default function RootLayout({
@@ -16,8 +14,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+    // On spécifie que la langue de la page est le français
     <html lang="fr">
-      <body className={`${inter.className} bg-gray-200`}>{children}</body>
+      <body className="bg-gray-100">{children}</body>
     </html>
   );
 }

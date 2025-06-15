@@ -1,47 +1,38 @@
-import React from "react";
-import { FiPhone, FiMail, FiMapPin } from "react-icons/fi";
+// src/components/Header.tsx
 
-const Header = () => {
+// Voici la structure de base pour un composant React avec TypeScript
+// Le "export default" est ce qui corrige l'erreur "is not a module"
+export default function Header() {
   return (
-    <header className="flex justify-between items-start mb-10">
-      {/* Colonne de gauche */}
-      <div>
-        <h1 className="text-5xl font-extrabold text-gray-800">
-          Paul Gyselinck
-        </h1>
-        <div className="text-gray-600 mt-2">
-          <p>Né le 18 novembre 1978</p>
-          <p>Célibataire</p>
-          <p>Français</p>
-          <p>Permis B</p>
-        </div>
-      </div>
+    <header className="text-center mb-10">
+      <h1 className="text-4xl md:text-5xl font-bold text-gray-800">
+        Paul Gyselinck
+      </h1>
+      <p className="text-xl md:text-2xl text-blue-700 mt-2">
+        Enseignant et Candidat Référent Numérique & IA
+      </p>
 
-      {/* Colonne de droite */}
-      <div className="text-right text-gray-700">
-        <div className="flex items-center justify-end mb-1">
-          <p className="mr-2">112 rue Ernest Renan</p>
-          <FiMapPin />
-        </div>
-        <p className="mb-1">33000 Bordeaux, France</p>
-        <div className="flex items-center justify-end mb-1 mt-4">
-          <a href="tel:+33668309827" className="mr-2 hover:text-blue-600">
-            (33) 6 68 30 98 27
-          </a>
-          <FiPhone />
-        </div>
-        <div className="flex items-center justify-end">
-          <a
-            href="mailto:Paul.Gyselinck@ac-bordeaux.fr"
-            className="mr-2 hover:text-blue-600"
-          >
-            Paul.Gyselinck@ac-bordeaux.fr
-          </a>
-          <FiMail />
-        </div>
+      <div className="mt-6 flex justify-center items-center flex-wrap gap-x-6 gap-y-2 text-gray-600">
+        <a href="mailto:gy.paul@gmail.com" className="hover:text-blue-700">
+          gy.paul@gmail.com
+        </a>
+        <span>•</span>
+        <span>06 68 30 98 27</span>
+        <span>•</span>
+        <span>Bordeaux</span>
+      </div>
+      <div className="mt-4 flex justify-center items-center gap-x-4">
+        <a
+          href="https://cv.gyselinck.fr"
+          className="text-blue-600 hover:underline"
+        >
+          cv.gyselinck.fr
+        </a>
+        {/* Ajoutez ici le lien vers votre profil LinkedIn si vous en avez un */}
+        {/* <a href="LIEN_LINKEDIN" className="text-blue-600 hover:underline">
+          Profil LinkedIn
+        </a> */}
       </div>
     </header>
   );
-};
-
-export default Header;
+}
