@@ -7,6 +7,23 @@ export default function Formations() {
         Formations et Diplômes
       </h2>
       <div className="space-y-8">
+        {/* === Diplômes Universitaires === */}
+        <div>
+          <h3 className="text-xl font-semibold text-gray-800 mb-3">
+            Diplômes Universitaires et Certification
+          </h3>
+          <ul className="list-disc list-inside text-gray-700 space-y-2">
+            <li>CAPES de sciences économiques et sociales (2014)</li>
+            <li>
+              Magistère & DEA en Économie du Développement - Université
+              d&apos;Auvergne | 2003 - mention Très Bien
+            </li>
+            <li>
+              Licence en Sciences Économiques et Sociales - Université Bordeaux
+              IV | 2000
+            </li>
+          </ul>
+        </div>
         {/* === Formations Continues Clés === */}
         <div>
           <h3 className="text-xl font-semibold text-gray-800 mb-3">
@@ -26,24 +43,6 @@ export default function Formations() {
             </li>
             <li>Accompagnement des formateurs (2017-2018)</li>
             <li>Les usages du numérique en SES (2016-2017)</li>
-          </ul>
-        </div>
-
-        {/* === Diplômes Universitaires === */}
-        <div>
-          <h3 className="text-xl font-semibold text-gray-800 mb-3">
-            Diplômes Universitaires et Certification
-          </h3>
-          <ul className="list-disc list-inside text-gray-700 space-y-2">
-            <li>CAPES de sciences économiques et sociales (2014)</li>
-            <li>
-              Magistère & DEA en Économie du Développement - Université
-              d&apos;Auvergne (| 2003 - Major de promotion (mention Très Bien)
-            </li>
-            <li>
-              Licence en Sciences Économiques et Sociales - Université Bordeaux
-              IV | 2000
-            </li>
           </ul>
         </div>
       </div>
