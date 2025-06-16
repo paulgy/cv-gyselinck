@@ -35,20 +35,14 @@ export default function Formations() {
             Diplômes Universitaires et Certification
           </h3>
           <ul className="list-disc list-inside text-gray-700 space-y-2">
-            <li>
-              Professeur certifié de sciences économiques et sociales (2014)
-            </li>
-            <li>
-              Doctorat en Économie du Développement - CERDI, Université
-              d&apos;Auvergne (2012)
-            </li>
+            <li>CAPES de sciences économiques et sociales (2014)</li>
             <li>
               Magistère & DEA en Économie du Développement - Université
-              d&apos;Auvergne (2003)
+              d&apos;Auvergne (| 2003 - Major de promotion (mention Très Bien)
             </li>
             <li>
               Licence en Sciences Économiques et Sociales - Université Bordeaux
-              IV (2000)
+              IV | 2000
             </li>
           </ul>
         </div>

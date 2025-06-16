@@ -105,7 +105,7 @@ export default function Competences() {
                 <li>
                   Compétences en développement web (HTML/CSS, JavaScript,
                   Next.js, Reveal.js) et administration de CMS (WordPress,
-                  Moodle/M@gitère) pour la création et la gestion de plateformes
+                  Moodle/M@gitère) pour la gestion de plateformes
                   d&#39;apprentissage et la diffusion de contenus pédagogiques.
                 </li>
                 <li>
@@ -206,6 +206,12 @@ export default function Competences() {
           >
             <div className="p-4 border-t border-blue-200">
               <ul className="list-disc list-inside text-gray-700 space-y-2">
+                <li>
+                  Porteur du projet TraAM 2024-2025 pour l&#39;académie de
+                  Bordeaux sur l&#39;évaluation avec le numérique et l&#39;IA en
+                  SES : coordination d&#39;équipe, animation des réunions et
+                  définition des objectifs pédagogiques.
+                </li>
                 <li>Pilotage et accompagnement de projets numériques.</li>
                 <li>
                   Fondateur et président d&#39;association (CULTURACTION) :
