@@ -10,47 +10,42 @@ export default function Experiences() {
         {/* === Expérience 1: Enseignant et Formateur === */}
         <article>
           <h3 className="text-xl font-semibold text-gray-800">
-            Professeur de SES et Formateur Académique
+            Professeur de SES
           </h3>
           <p className="text-md text-gray-600">
             Lycée Camille Jullian, Bordeaux | Depuis septembre 2015
+            <br />
+            Lycée Camille Jullian, Bordeaux - Stagiaire | 2014-2015
+            <br />
+            Lycée Montaigne, Bordeaux - Contractuel Admissible | 2013-2014
           </p>
-          <ul className="list-disc list-inside mt-3 text-gray-700 space-y-2">
-            <li>
-              Mise en œuvre des programmes incluant les enseignements de
-              spécialité (SES) et transversaux (SNT, NSI).
-            </li>
-            <li>
-              Formateur académique sur les usages du numérique en SES et pour
-              les enseignants stagiaires (FSTG).
-            </li>
-            <li>
-              Participation active aux formations et à l&apos;animation du
-              réseau SRANE de l&apos;académie de Bordeaux.
-            </li>
-            <li>
-              Accompagnement des élèves dans le cadre de la réforme du lycée et
-              des nouvelles modalités d&apos;évaluation.
-            </li>
-          </ul>
+          <h3 className="text-xl font-semibold text-gray-800">
+            Professeur de SNT
+          </h3>
+          <p className="text-md text-gray-600">
+            Lycée Camille Jullian, Bordeaux | Depuis septembre 2019
+          </p>
         </article>
 
         {/* === Expérience 2: Université === */}
         <article>
           <h3 className="text-xl font-semibold text-gray-800">
-            Attaché d&apos;Enseignement et de Recherche (ATER) & Doctorant
+            Doctorant en Économie du Développement, <br />
+            Moniteur, Attaché d&apos;Enseignement et de Recherche (ATER)
           </h3>
           <p className="text-md text-gray-600">
-            CERDI, Université d&apos;Auvergne | 2003 - 2012
+            CERDI, Université d&apos;Auvergne | 2003 - 2010
           </p>
           <ul className="list-disc list-inside mt-3 text-gray-700 space-y-2">
             <li>
-              Enseignement universitaire en microéconomie, macroéconomie et
-              démographie.
+              Travaux dirigés de Macro-économie, Micro-économie, Économie
+              Politique, Démographie, Grandes Fonctions de l’Entreprise.
             </li>
             <li>
-              Gestion et traitement de données statistiques complexes dans un
-              cadre de recherche international (PNIR, Sénégal).
+              Traitement des données d’enquêtes pour l’évaluation du programme
+              National d’Infrastructures Rurales (PNIR) au Sénégal, en
+              collaboration avec l’Université Gaston Berger, Saint-Louis,
+              Sénégal | 2005
             </li>
             <li>
               Publication et valorisation de travaux de recherche en économie du
@@ -69,8 +64,23 @@ export default function Experiences() {
           </p>
           <ul className="list-disc list-inside mt-3 text-gray-700 space-y-2">
             <li>
-              Collaboration avec des institutions nationales (Ministère de la
-              Santé) sur des projets d&apos;étude.
+              Étude sur la demande de tabac au Vietnam en collaboration avec
+              L’Institut d’Economie et le Ministère de la Santé (3 mois).
+            </li>
+          </ul>
+        </article>
+        {/* === Expérience 4: Maroc === */}
+        <article>
+          <h3 className="text-xl font-semibold text-gray-800">
+            Stagiaire dans une association de micro-crédit,
+          </h3>
+          <p className="text-md text-gray-600">
+            A.M.S.S.F M-C, Fès, Maroc | 2001
+          </p>
+          <ul className="list-disc list-inside mt-3 text-gray-700 space-y-2">
+            <li>
+              Élaboration d’une demande de financement pour un projet de
+              Micro-Finance (1 mois).
             </li>
           </ul>
         </article>
