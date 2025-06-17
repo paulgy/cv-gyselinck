@@ -203,11 +203,11 @@ export default function Competences() {
                   Pilotage du projet TraAM 2024-2025 (Académies de Bordeaux &
                   Limoges) sur l&#39;évaluation avec le numérique et l&#39;IA :
                   définition des objectifs, coordination de l&#39;équipe et
-                  animation des réunion.
+                  animation des réunions.
                 </li>
 
                 <li>
-                  Participation à des programme de recherche en contexte
+                  Participation à des programmes de recherche en contexte
                   international (Sénégal, Vietnam).
                 </li>
                 <li>
