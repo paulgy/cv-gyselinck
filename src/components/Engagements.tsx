@@ -124,8 +124,8 @@ export default function Engagements() {
                 </li>
                 <li>
                   Deejay professionnel spécialisé en musiques afro-caribéennes
-                  et latines | depuis 2011.
-                  <p className="mt-1 flex items-start text-gray-600">
+                  et latines | depuis 2011n.
+                  <div className="mt-1 flex items-start text-gray-600">
                     <FiMapPin className="mr-2 mt-1 flex-shrink-0 text-gray-500" />
                     <span>
                       Lieux notables à Bordeaux : Calle Ocho, Mama Shelter,
@@ -146,7 +146,7 @@ export default function Engagements() {
                         ))}
                       </div>
                     </div>
-                  </p>
+                  </div>
                 </li>
               </ul>
             </div>
