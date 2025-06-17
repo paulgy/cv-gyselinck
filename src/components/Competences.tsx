@@ -55,7 +55,7 @@ export default function Competences() {
                 <li>
                   Utilisation des applications institutionnelles (Nuage, Codin,
                   Evento, Tribu, ...) et des outils du &quot;libre
-                  éducatif&quot; pour la collaboration et le partage des
+                  éducatif&quot; pour la collaboration et le partage de
                   ressources pédagogiques.
                 </li>
                 <li>
@@ -127,8 +127,7 @@ export default function Competences() {
                   )..
                 </li>
                 <li>
-                  Familiarité avec les systèmes d&#39;exploitation Linux, macOS
-                  et Windows.
+                  Familiarité avec les environnements Linux, macOS et Windows.
                 </li>
                 <li>Score Profil PIX : 365.</li>
               </ul>
@@ -159,17 +158,13 @@ export default function Competences() {
             <div className="p-4 border-t border-blue-200">
               <ul className="list-disc list-inside text-gray-700 space-y-2">
                 <li>
-                  Formateur académique : animation de formations pour les
-                  enseignants (FSTG , SES ).
-                </li>
-                <li>
                   Accompagnement et formation des collègues aux usages du
-                  numérique éducatif (ex: Moodle) en tant que RUPN.
+                  numérique éducatif en tant que RUPN.
                 </li>
                 <li>
-                  Participation active et animation de formations du réseau
-                  SRANE , témoignant d&#39;une compréhension des enjeux du
-                  numérique éducatif.
+                  Formateur académique : &quot;Mobiliser l’IA dans
+                  l’enseignement des SES&quot; ; &quot;Débuter avec
+                  Moodle&quot;.
                 </li>
                 <li>
                   Capacité à l&#39;innovation et à l&#39;expérimentation
@@ -207,24 +202,15 @@ export default function Competences() {
             <div className="p-4 border-t border-blue-200">
               <ul className="list-disc list-inside text-gray-700 space-y-2">
                 <li>
-                  Porteur du projet TraAM 2024-2025 pour l&#39;académie de
-                  Bordeaux sur l&#39;évaluation avec le numérique et l&#39;IA en
-                  SES : coordination d&#39;équipe, animation des réunions et
-                  définition des objectifs pédagogiques.
+                  Pilotage du projet TraAM 2024-2025 (Académies de Bordeaux &
+                  Limoges) sur l&#39;évaluation avec le numérique et l&#39;IA :
+                  définition des objectifs, coordination de l&#39;équipe et
+                  animation des réunion.
                 </li>
-                <li>Pilotage et accompagnement de projets numériques.</li>
+
                 <li>
-                  Fondateur et président d&#39;association (CULTURACTION) :
-                  gestion de projet, recherche de financements et développement
-                  de partenariats.
-                </li>
-                <li>
-                  Communication et création de supports numériques (site web
-                  associatif).
-                </li>
-                <li>
-                  Coordination de projets en contexte international (Sénégal,
-                  Vietnam).
+                  Participation à des programme de recherche en contexte
+                  international (Sénégal, Vietnam).
                 </li>
                 <li>
                   Capacité à travailler en équipe et de manière collaborative,
@@ -232,7 +218,7 @@ export default function Competences() {
                 </li>
                 <li>
                   Compétences rédactionnelles et capacité à communiquer à
-                  l&#39;oral devant un groupe.
+                  l&#39;oral.
                 </li>
               </ul>
             </div>

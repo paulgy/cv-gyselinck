@@ -35,7 +35,7 @@ export default function Engagements() {
         {/* === Engagement 2: Musique === */}
         <article>
           <h3 className="text-xl font-semibold text-gray-800">
-            Musicien (Basse)
+            Musicien, DeeJay
           </h3>
           <p className="text-md text-gray-600">Depuis 1994</p>
           <ul className="list-disc list-inside mt-3 text-gray-700 space-y-2">
@@ -44,6 +44,7 @@ export default function Engagements() {
               musicales.
             </li>
             <li>Organisation de concerts et gestion de projets artistiques.</li>
+            <li>Dj Set dans le milieu Afro-Latino.</li>
           </ul>
         </article>
       </div>

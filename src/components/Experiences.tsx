@@ -46,16 +46,16 @@ const experiencesData = [
     company: "Lycée Camille Jullian, Bordeaux",
     dates: "2021 - 2022",
     description: [
-      "<strong>Conseil et pilotage :</strong> Appui à l'équipe de direction dans le pilotage du numérique et la définition de la stratégie d'établissement.",
-      "<strong>Accompagnement pédagogique :</strong> Formation et support auprès des équipes pédagogiques pour l'intégration du numérique dans les pratiques d'enseignement.",
-      "<strong>Administration et support technique :</strong> Gestion des accès au réseau et aux services pour les enseignants et les élèves (plus de 30 tickets gérés). Interface avec le support technique régional (e-ANNA) via l'outil GLPI.",
-      "<strong>Déploiement de projets nationaux :</strong> Organisation des campagnes Pix pour tous les niveaux et gestion de la certification pour les classes de terminale. Prise en charge des tests de positionnement de seconde.",
+      " Appui à l'équipe de direction dans le pilotage du numérique et la définition de la stratégie d'établissement.",
+      "Accompagnement des équipes pédagogiques pour l'intégration du numérique dans les pratiques d'enseignement.",
+      "Administration et support technique : gestion des accès au réseau et aux services pour les enseignants, les parents et les élèves. Interface avec le support technique régional (e-ANNA).",
+      "Déploiement de projets nationaux : Organisation des campagnes Pix pour tous les niveaux et préparation de la certification. Prise en charge des tests de positionnement de seconde.",
     ],
   },
   {
     title: "Doctorant en Économie du Développement, Moniteur, ATER, Vacataire",
     company: "CERDI, Université d'Auvergne",
-    dates: "2003 - 2010",
+    dates: "2003 - 2011",
     description: [
       "Chargé de Travaux dirigés de Macro-économie, Micro-économie, Économie Politique, Démographie, Grandes Fonctions de l'Entreprise.",
       "Sujet de thèse : <em>Impact de l'éducation sur le revenu des ménages dans un contexte de transition économique : Une application sur données Vietnamiennes.</em> sous la direction de J.L. Arcand.",
@@ -134,10 +134,10 @@ export default function Experiences() {
                     </p>
                   </div>
                   <span
-                    className={`text-2xl font-light transition-all duration-300 ease-in-out ${
+                    className={`w-6 h-6 flex items-center justify-center text-2xl font-bold transform transition-all duration-300 ${
                       activeIndex === index
-                        ? "rotate-45 text-blue-600 scale-110"
-                        : "rotate-0 text-gray-500 group-hover:text-blue-600 group-hover:scale-105"
+                        ? "rotate-45 text-blue-800"
+                        : "text-gray-600"
                     }`}
                   >
                     +
