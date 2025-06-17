@@ -59,8 +59,8 @@ export default function Competences() {
                   ressources pédagogiques.
                 </li>
                 <li>
-                  Administration et support des comptes Educonnect, Lycée
-                  Connecté, Pix et Pronote.
+                  Gestion et assistance des comptes Educonnect, Lycée Connecté,
+                  Pix et Pronote.
                 </li>
                 <li>
                   Déploiement et suivi du dispositif Pix au lycée Camille
@@ -126,9 +126,7 @@ export default function Competences() {
                   </a>
                   )..
                 </li>
-                <li>
-                  Familiarité avec les environnements Linux, macOS et Windows.
-                </li>
+                <li>Utilisateur avancé de l&#39;environnement Linux.</li>
                 <li>Score Profil PIX : 365.</li>
               </ul>
             </div>

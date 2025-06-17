@@ -11,12 +11,9 @@ const experiencesData = [
     staticContent: [
       {
         title: "Professeur de SES",
-        details: "Lycée Camille Jullian, Bordeaux | Depuis septembre 2015",
+        details: "Lycée Camille Jullian, Bordeaux | Depuis septembre 2014",
       },
-      {
-        title: "",
-        details: "Lycée Camille Jullian, Bordeaux - Stagiaire | 2014-2015",
-      },
+
       {
         title: "",
         details:
@@ -33,7 +30,7 @@ const experiencesData = [
     company: "Académie de Bordeaux",
     dates: "depuis juin 2023",
     description: [
-      "Administration du site web académique SES (Wordpress), refonte de l'architecture (en cours) et de la charte graphique, publication régulière d'article et lettres d'information.",
+      "Administration du site web académique SES (Wordpress), refonte de l'architecture (en cours) et de la charte graphique, publication régulière d'articles et lettres d'information.",
       "Administration de la liste de diffusion académique (Listeinfo_ses)",
       "Conception et publication de ressources pédagogiques numériques.",
       "Indexation des scénarios pédagogiques sur la plateforme Edubase.",
@@ -106,9 +103,7 @@ export default function Experiences() {
                   Professeur de SES
                 </h3>
                 <p className="text-md text-gray-600">
-                  Lycée Camille Jullian, Bordeaux | Depuis septembre 2015
-                  <br />
-                  Lycée Camille Jullian, Bordeaux - Stagiaire | 2014-2015
+                  Lycée Camille Jullian, Bordeaux | Depuis septembre 2014
                   <br />
                   Lycée Montaigne, Bordeaux - Contractuel Admissible | 2013-2014
                 </p>

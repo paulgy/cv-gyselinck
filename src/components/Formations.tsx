@@ -17,7 +17,7 @@ export default function Formations() {
             Diplômes Universitaires et Certification
           </h3>
           <ul className="list-disc list-inside text-gray-700 space-y-2">
-            <li>CAPES de sciences économiques et sociales (2014)</li>
+            <li>CAPES de sciences économiques et sociales | 2014</li>
             <li>
               Magistère & DEA en Économie du Développement - Université
               d&apos;Auvergne | 2003 - mention Très Bien
@@ -40,7 +40,7 @@ export default function Formations() {
             aria-controls="formations-continues-content"
           >
             <div className="transition-all duration-300 ease-in-out group-hover:translate-x-1">
-              <span>Formations Continues Pertinentes</span>
+              <span>Formations Continues Pertinentes pour la Mission</span>
             </div>
             <div
               className={`w-6 h-6 flex items-center justify-center text-2xl font-bold transform transition-all duration-300 ${
@@ -67,19 +67,19 @@ export default function Formations() {
               }`}
             >
               <ul className="list-disc list-inside text-gray-700 space-y-2">
-                <li>Animation du réseau SRANE (2024-2025)</li>
+                <li>Animation du réseau SRANE | 2024-2025</li>
                 <li>
-                  Intégrer le numérique dans sa pratique de classe (2023-2024)
+                  Intégrer le numérique dans sa pratique de classe | 2023-2024
                 </li>
                 <li>
-                  Ateliers Numérique et Sciences Informatiques (NSI) (2023-2024)
+                  Ateliers Numérique et Sciences Informatiques (NSI) | 2023-2024
                 </li>
-                <li>Algorithmique et programmation au lycée (2019-2020)</li>
+                <li>Algorithmique et programmation au lycée | 2019-2020</li>
                 <li>
-                  Sciences Numériques et Technologie (SNT) en 2nde (2018-2019)
+                  Sciences Numériques et Technologie (SNT) en 2nde | 2018-2019
                 </li>
-                <li>Accompagnement des formateurs (2017-2018)</li>
-                <li>Les usages du numérique en SES (2016-2017)</li>
+                <li>Accompagnement des formateurs | 2017-2018</li>
+                <li>Les usages du numérique en SES | 2016-2017 </li>
               </ul>
             </div>
           </div>

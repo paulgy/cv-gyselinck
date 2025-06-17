@@ -107,8 +107,15 @@ export default function Engagements() {
             >
               <ul className="list-disc list-inside mt-3 text-gray-700 space-y-2 pl-4">
                 <li>
-                  Expérience en tant que musicien, DJ et organisateur au sein de
-                  diverses formations et collectifs.
+                  Expérience en tant que musicien et organisateur au sein de
+                  diverses formations et collectifs | 1994-2014
+                </li>
+                <li>
+                  Deejay professionnel spécialisé en musiques afro-caribéennes
+                  et latines | depuis 2011
+                  <br />
+                  Calle Ocho, Mama Shelter, Punta Cana Bar, Dansons sur les
+                  quais, etc.
                 </li>
               </ul>
             </div>
