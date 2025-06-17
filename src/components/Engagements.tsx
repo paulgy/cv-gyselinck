@@ -124,7 +124,7 @@ export default function Engagements() {
                 </li>
                 <li>
                   Deejay professionnel spécialisé en musiques afro-caribéennes
-                  et latines | depuis 2011n.
+                  et latines | depuis 2011.
                   <div className="mt-1 flex items-start text-gray-600">
                     <FiMapPin className="mr-2 mt-1 flex-shrink-0 text-gray-500" />
                     <span>
