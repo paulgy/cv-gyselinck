@@ -17,7 +17,7 @@ export default function Formations() {
             Diplômes Universitaires et Certification
           </h3>
           <ul className="list-disc list-inside text-gray-700 space-y-2">
-            <li>CAPES de sciences économiques et sociales | 2014</li>
+            <li>CAPES de Sciences Économiques et Sociales | 2014</li>
             <li>
               Magistère & DEA en Économie du Développement - Université
               d&apos;Auvergne | 2003 - mention Très Bien
