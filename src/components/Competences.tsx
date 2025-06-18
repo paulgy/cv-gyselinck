@@ -37,7 +37,7 @@ export default function Competences() {
           <div
             className={`overflow-hidden transition-all duration-300 ease-in-out ${
               openSections.pedagogie
-                ? "max-h-96 sm:max-h-screen opacity-100"
+                ? "max-h-screen opacity-100"
                 : "max-h-0 opacity-0"
             }`}
           >
@@ -92,7 +92,7 @@ export default function Competences() {
           <div
             className={`overflow-hidden transition-all duration-300 ease-in-out ${
               openSections.developpement
-                ? "max-h-96 sm:max-h-screen opacity-100"
+                ? "max-h-screen opacity-100"
                 : "max-h-0 opacity-0"
             }`}
           >
@@ -127,7 +127,6 @@ export default function Competences() {
                   )..
                 </li>
                 <li>Utilisateur avancé de l&#39;environnement Linux.</li>
-                <li>Score Profil PIX : 365.</li>
               </ul>
             </div>
           </div>
@@ -149,7 +148,7 @@ export default function Competences() {
           <div
             className={`overflow-hidden transition-all duration-300 ease-in-out ${
               openSections.formation
-                ? "max-h-96 sm:max-h-screen opacity-100"
+                ? "max-h-screen opacity-100"
                 : "max-h-0 opacity-0"
             }`}
           >
@@ -193,7 +192,7 @@ export default function Competences() {
           <div
             className={`overflow-hidden transition-all duration-300 ease-in-out ${
               openSections.gestion
-                ? "max-h-96 sm:max-h-screen opacity-100"
+                ? "max-h-screen opacity-100"
                 : "max-h-0 opacity-0"
             }`}
           >
