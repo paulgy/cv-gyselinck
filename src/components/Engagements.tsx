@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 // Les icônes nécessaires
-import { FiMapPin, FiSliders, FiGrid, FiMusic } from "react-icons/fi";
+import { FiMapPin, FiSliders, FiGrid } from "react-icons/fi";
 
 export default function Engagements() {
   const [openAccordions, setOpenAccordions] = useState<{
@@ -12,7 +12,6 @@ export default function Engagements() {
   const softwareTools = [
     { name: "Traktor", icon: <FiSliders className="mr-1.5" /> },
     { name: "Maschine", icon: <FiGrid className="mr-1.5" /> },
-    { name: "Komplete", icon: <FiMusic className="mr-1.5" /> },
   ];
 
   const toggleAccordion = (index: number) => {

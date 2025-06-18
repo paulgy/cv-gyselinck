@@ -37,7 +37,7 @@ export default function Competences() {
           <div
             className={`overflow-hidden transition-all duration-300 ease-in-out ${
               openSections.pedagogie
-                ? "max-h-96 opacity-100"
+                ? "max-h-96 sm:max-h-screen opacity-100"
                 : "max-h-0 opacity-0"
             }`}
           >
@@ -92,7 +92,7 @@ export default function Competences() {
           <div
             className={`overflow-hidden transition-all duration-300 ease-in-out ${
               openSections.developpement
-                ? "max-h-96 opacity-100"
+                ? "max-h-96 sm:max-h-screen opacity-100"
                 : "max-h-0 opacity-0"
             }`}
           >
@@ -149,7 +149,7 @@ export default function Competences() {
           <div
             className={`overflow-hidden transition-all duration-300 ease-in-out ${
               openSections.formation
-                ? "max-h-96 opacity-100"
+                ? "max-h-96 sm:max-h-screen opacity-100"
                 : "max-h-0 opacity-0"
             }`}
           >
@@ -193,7 +193,7 @@ export default function Competences() {
           <div
             className={`overflow-hidden transition-all duration-300 ease-in-out ${
               openSections.gestion
-                ? "max-h-96 opacity-100"
+                ? "max-h-96 sm:max-h-screen opacity-100"
                 : "max-h-0 opacity-0"
             }`}
           >
