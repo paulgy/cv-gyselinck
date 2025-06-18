@@ -1,6 +1,12 @@
 // components/Header.tsx
 import React from "react";
-import { FiPhone, FiMail, FiMapPin, FiCheckCircle } from "react-icons/fi";
+import {
+  FiPhone,
+  FiMail,
+  FiMapPin,
+  FiCheckCircle,
+  FiAward, // Ajout de l'icône pour le score Pix
+} from "react-icons/fi";
 
 const Header = () => {
   return (
@@ -51,6 +57,12 @@ const Header = () => {
               <span className="order-2 md:order-1">Permis B</span>
               <FiCheckCircle className="order-1 md:order-2 text-gray-500" />
             </div>
+            {/* --- Ajout du score Pix --- */}
+            <div className="flex items-center md:justify-end gap-3">
+              <span className="order-2 md:order-1">365 Pix</span>
+              <FiAward className="order-1 md:order-2 text-gray-500" />
+            </div>
+            {/* --- Fin de l'ajout --- */}
           </div>
         </div>
       </div>
